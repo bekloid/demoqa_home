@@ -9,7 +9,7 @@ class BasePage():
 
     def visit(self):
         time.sleep(5)
-        return self.driver.get(self.base_url) # в тесте не видит метод get не понимаю почему
+        return self.driver.get(self.base_url) #в тесте не видит метод get не понимаю почему
 
 
     def find_element(self, locator):
